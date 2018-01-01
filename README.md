@@ -2,7 +2,8 @@
 
 ##   Data   Wrangling
 
-##   Load   in   the   data Pokemon=read.csv(file="Pokemon.csv",head=TRUE,na.strings=c( ""))
+##   Load   in   the   data 
+Pokemon=read.csv(file="Pokemon.csv",head=TRUE,na.strings=c( ""))
 library(caret)
 ##   Get   the   general   information   of   the   dataframe str(Pokemon)
 attach(Pokemon)
